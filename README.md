@@ -1,2 +1,2 @@
 # week-02-responsive-website
-css
+css styling and make responsive website..
