@@ -1,0 +1,106 @@
+
+body{
+ background-image: url("../images/duraga.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Poppins', sans-serif;
+    color: #3d2520;
+}
+
+/* Contact Section */
+.contact {
+    max-width: 650px;
+    margin: 35px auto 60px;
+    padding: 40px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(80, 30, 20, 0.10);
+ 
+}
+
+.contact h2 {
+    color: #800000;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #e5d5c8;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    background: #fffdfb;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #800000;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background: #800000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #b8860b;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    header nav a {
+        margin: 5px;
+    }
+
+    .contact {
+        margin: 25px 15px;
+        padding: 25px;
+    }
+
+    body > h1 {
+        font-size: 28px;
+    }
+}

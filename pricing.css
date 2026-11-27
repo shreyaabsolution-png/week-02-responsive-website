@@ -1,0 +1,105 @@
+
+.headersection {
+    background-image: url("../images/duraga.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #3d2520;
+}
+.main-puja{
+    color:#800000;
+}
+/* Pricing Hero */
+.pricing-hero {
+    background: linear-gradient(120deg, #4d1010, #b8860b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.pricing-hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.pricing-hero p {
+    font-size: 18px;
+}
+
+/* Pricing Section */
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 50px 20px;
+    gap: 25px;
+    background: #fffaf5;
+}
+
+/* Pricing Card */
+.pricing-card {
+    width: 300px;
+    padding: 30px;
+    background: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.pricing-card h3 {
+    color: #800000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pricing-card h2 {
+    color: #b8860b;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.pricing-card p {
+    margin-bottom: 20px;
+    color: #5c4540;
+}
+
+.pricing-card ul {
+    list-style: none;
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+
+.pricing-card li {
+    color: #4d1010;
+}
+
+.pricing-card button {
+    background: #800000;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background: #b8860b;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .pricing-section {
+        flex-wrap: wrap;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .pricing-hero h2 {
+        font-size: 28px;
+    }
+}
